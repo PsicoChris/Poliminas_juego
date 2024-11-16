@@ -1,17 +1,19 @@
-package buscaminas;
+package poli.edu.co.modelos;
 
 public class Casilla {
 	
 	private int posFila;
 	private int posColumna;
 	private boolean mina;
-	
+	private int pista;
 	
 	
 	
 	public Casilla(int posFila, int posColumna) {
 		this.posFila = posFila;
 		this.posColumna = posColumna;
+		this.mina = false;
+		this.pista = 0;
 	}
 
 
@@ -43,8 +45,20 @@ public class Casilla {
 	public void setMina(boolean mina) {
 		this.mina = mina;
 	}
+
+
+	public int getPista() {
+		return pista;
+	}
+
+
+	public void setPista(int pista) {
+		this.pista = pista;
+	}
 	
-	
+	public void incrementarPista() {
+		this.pista++;
+	}
 	
 
 }
