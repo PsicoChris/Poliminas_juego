@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"poli.edu.co.modelos","l":"Casilla"},{"p":"poli.edu.co.coltrolador","l":"Controlador"},{"p":"poli.edu.co.modelos","l":"Tablero"}];updateSearchResults();
